@@ -1,12 +1,12 @@
 # Installation
 
-## Homebrew
+## Install Homebrew
 
 ```bash
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 
-## Brew Cask
+## Install Brew Cask
 
 ```bash
 brew tap caskroom/cask
