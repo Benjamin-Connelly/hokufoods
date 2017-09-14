@@ -27,7 +27,7 @@ brew tap caskroom/cask
 
 ```bash
 brew install imagemagick
-brew install mactex
+brew cask install mactex
 ```
 
 ## Create a directory for Weekly_Specials on your Desktop
