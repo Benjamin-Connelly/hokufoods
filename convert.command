@@ -4,7 +4,7 @@ set -e
 set noclobber
 shopt -s extglob
 
-today=$(date +"%m-%Y")
+today=$(date -v+1m  +"%m-%Y")
 
 # Set terminal working directory
 cd -- "$(dirname "$0")"
