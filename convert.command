@@ -14,7 +14,7 @@ cd -- "$(dirname "$0")"
 
 # Crop the image to remove register marks and save them in the month-year directory. 
 for specials in `ls *.pdf`; do
-   pdfcrop --margins '-23 -23 -23 -23' $specials  $today/"${file%%.*}";
+   pdfcrop --margins '-10 -23 -10 -30' $specials  $today/"${file%%.*}";
 done
 
 # Change directory to correct month-year.
